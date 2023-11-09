@@ -1,2 +1,3 @@
-# Tic-Tac-Toe
-Tic Tac Toe game in C using MiniMax
+# Tic Tac Toe: Alexander Bareli
+
+This is a Tic Tac Toe game that uses the recursive algorithm MiniMax as an A.I opponent against the player. If no argument is provided, then the program will enter a loop where the user can play against an A.I opponent. The program will ask the user for an input (i.e: 1 2) to specify where the player wants to place his piece (The user is 'X' and the A.I is 'O') and then the A.I will make the most optimial possible move in order to decrease the user's chance of winning. The program will end once the board has been populated and is either a win for the player or the A.I, or if it is a draw. The program can also take a string of X's and O's (i.e: X _ O X X O _ X _ ) to represent a partially filled board, and the program will output the best possible move to make with the given board conditions.  
